@@ -258,9 +258,10 @@ component displayname="boardgames.cfc" hint="This CFC is used for proof of conce
 				/***** BEGIN LOG UPDATE *****/
 					//writeLog( file="acmeCars", type="Error", text=local.returnValue.message );
 				/***** END LOG UPDATE *****/
-			}
+			} 
 		/********** BEGIN OUTPUT **********/
-
+			writeoutput(serializeJSON(local.returnValue));
+			abort;
 			return local.returnValue;
 		/********** END OUTPUT **********/	
 	}					
