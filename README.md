@@ -11,4 +11,4 @@ A post request for an insert json body example.
 	"rating" : 8
 }
 
-I did not write put or delete methods because there is not database, and these would require a table of data manipulation.
+I did not write put or delete methods because there is not database, and these would require a table for proper proof of concept.
